@@ -1,0 +1,17 @@
+# Enable the rewrite engine
+RewriteEngine On
+
+# Remove the php extension from the filename
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Set the headers for the restful api
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "http://localhost:4200"
+    Header always set Access-Control-Max-Age "1000"
+    Header always set Access-Control-Allow-Headers "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding"
+    Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
+    # Permitir credenciais em solicitações CORS
+    Header always set Access-Control-Allow-Credentials "true"
+</IfModule>

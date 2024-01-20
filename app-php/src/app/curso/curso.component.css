@@ -1,0 +1,101 @@
+/* Estilos para o contêiner principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    
+}
+
+/* Estilos para os rótulos e campos de entrada do formulário */
+label, input {
+    margin-bottom: 10px;
+}
+
+/* Estilos para os botões do formulário */
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilos para as células da tabela */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para as células da tabela com cores zebradas */
+tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Cor de fundo cinza claro para linhas pares */
+}
+
+tr:nth-child(odd) td {
+    background-color: #ecf0f1; /* Cor de fundo cinza claro para linhas ímpares */
+}
+
+/* Estilos para o botão dentro da tabela */
+table button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.box-btn-cadastrar-alterar-remover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-btn-cadastrar-alterar-remover button {
+    border-radius: 1.5rem;
+    width: 150px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.box-btn-cadastrar-alterar-remover button:hover {
+    background-color: gray;
+    color: black;
+}
+
+.btn-selecionar-curso {
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2rem;
+    height: 40px;
+}
+
+.btn-selecionar-curso:hover {
+    background-color: gray;
+    color: black;
+}
