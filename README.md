@@ -1,5 +1,6 @@
 # Aplicativo Cadastro de Cursos
-App de cadastro de cursos desenvolvido durante as aulas ministradas pela Capgemini sobre o framework Angular e conexão e manipulação do banco de dados MySql pelo xampp utilizando PHP.
+App de cadastro de cursos desenvolvido durante as aulas ministradas pela Capgemini sobre o framework Angular. 
+Conexão e Manipulação do banco de dados MySql pelo xampp utilizando PHP.
 
 ## Tela inicial
 ![image](https://github.com/Lucasgyn94/app-cadastro-de-cursos/assets/91031320/c2955124-c670-40df-a18f-f0cfe7d797cb)
